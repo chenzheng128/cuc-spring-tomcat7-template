@@ -8,6 +8,11 @@ visit localhost:8080/<appname>/hello.jsp for jsp pages
 
 
 ### update
+5. add .setting.zip file (eclipse facet) to external tomcat 7.0 server
+  unzip .setting 
+  add path to tomcat context
+  tomcat start
+  visit http://localhost:8080/cuc-spring-tomcat7-template/people
 
 4. add eclipse JPA facet support 
 
