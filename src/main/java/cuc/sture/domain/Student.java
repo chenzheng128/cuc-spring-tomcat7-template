@@ -9,7 +9,7 @@ public class Student {
 	{
 		
 	}
-	public Student(String name, String stuId) {
+	public Student(String stuId, String name) {
 		super();
 		this.name = name;
 		this.stuId = stuId;
@@ -43,6 +43,11 @@ public class Student {
 	
 	public static void main(String argvs[]){
 		System.out.println("hello my student.!");
+	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", stuId=" + stuId
+				+ "]";
 	}
 
 }

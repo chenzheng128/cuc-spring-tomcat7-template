@@ -14,5 +14,6 @@ import cuc.sture.domain.Student;
 @RepositoryRestResource(collectionResourceRel = "student", path = "student")
 public interface StudentRepository extends PagingAndSortingRepository<Student, Long> {
 
+	List<Student> findByName(String name);
     List<Student> findByStuId(String stuId);
 }
