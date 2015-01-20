@@ -1,4 +1,4 @@
-package cuc;
+package cuc.sture.domain;
 
 import javax.persistence.*;
 
